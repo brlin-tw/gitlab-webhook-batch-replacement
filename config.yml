@@ -1,0 +1,32 @@
+# GitLabForm configuration file
+#
+# Copyright 2025 林博仁(Buo-ren Lin) <buo.ren.lin@gmail.com>
+# SPDX-License-Identifier: AGPL-3.0-or-later
+config_version: 3
+
+gitlab:
+  url: https://gitlab.example.com
+  token: glpat--REDACTED
+  ssl_verify: true
+
+projects_and_groups:
+  '*':
+    hooks:
+      enforce: true
+      "https://rocketchat.example.com/hooks/REDACTED":
+        name: Rocket.Chat notification integration
+        confidential_issues_events: false
+        confidential_note_events: false
+        deployment_events: true
+        enable_ssl_verification: true
+        feature_flag_events: true
+        issues_events: true
+        job_events: true
+        merge_requests_events: true
+        note_events: true
+        pipeline_events: true
+        push_events: true
+        releases_events: true
+        resource_access_token_events: true
+        tag_push_events: true
+        wiki_page_events: true
