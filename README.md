@@ -2,7 +2,7 @@
 
 Batch replace webhooks for multiple GitLab projects using GitLabForm.  Useful when the webhook URL or secret needs to be updated.
 
-<https://gitlab.com/brlin/gitlab-webhook-batch-replacement>>  
+<https://gitlab.com/brlin/gitlab-webhook-batch-replacement>  
 [![The GitLab CI pipeline status badge of the project's `main` branch](https://gitlab.com//badges/main/pipeline.svg?ignore_skipped=true "Click here to check out the comprehensive status of the GitLab CI pipelines")](https://gitlab.com/brlin/gitlab-webhook-batch-replacement/-/pipelines) [![GitHub Actions workflow status badge](https://github.com/brlin-tw/gitlab-webhook-batch-replacement/actions/workflows/check-potential-problems.yml/badge.svg "GitHub Actions workflow status")](https://github.com/brlin-tw/gitlab-webhook-batch-replacement/actions/workflows/check-potential-problems.yml) [![pre-commit enabled badge](https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit&logoColor=white "This project uses pre-commit to check potential problems")](https://pre-commit.com/) [![REUSE Specification compliance badge](https://api.reuse.software/badge/gitlab.com/brlin/gitlab-webhook-batch-replacement "This project complies to the REUSE specification to decrease software licensing costs")](https://api.reuse.software/info/gitlab.com/brlin/gitlab-webhook-batch-replacement)
 
 \#gitlabform \#gitlab \#webhook \#automation
