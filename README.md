@@ -1,6 +1,10 @@
 # GitLab webhook batch replacement
 
-Powered by GitLabForm.
+Batch replace webhooks for multiple GitLab projects using GitLabForm.  Useful when the webhook URL or secret needs to be updated.
+
+<https://gitlab.com/brlin/gitlab-webhook-batch-replacement>
+
+\#gitlabform \#gitlab \#webhook \#automation
 
 ## Usage
 
